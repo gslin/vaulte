@@ -1,0 +1,6 @@
+#
+.DEFAULT: all
+
+#
+all:
+	@true
