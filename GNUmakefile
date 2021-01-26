@@ -1,5 +1,6 @@
 #
-.DEFAULT: all
+.DEFAULT:	all
+.PHONY:		all
 
 #
 all::
