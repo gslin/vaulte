@@ -10,4 +10,4 @@ build:
 	dpkg-buildpackage -uc -us
 
 clean:
-	rm ../vaulte_*
+	rm -f ../vaulte_*
