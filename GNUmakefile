@@ -1,6 +1,6 @@
 #
 .DEFAULT:	all
-.PHONY:		all
+.PHONY:		all build
 
 #
 all::
