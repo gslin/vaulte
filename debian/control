@@ -10,5 +10,5 @@ Vcs-Browser: https://github.com/gslin/vaulte
 
 Package: vaulte
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-mechanize-perl, perl
+Depends: liblwp-protocol-https-perl, libwww-mechanize-perl, perl
 Description: Export HashiCorp Vault secrets to environment variables via AppRole.
