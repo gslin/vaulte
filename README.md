@@ -2,4 +2,4 @@
 
 ## License
 
-## Author
+See [LICENSE](LICENSE).
