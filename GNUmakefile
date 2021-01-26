@@ -2,5 +2,5 @@
 .DEFAULT: all
 
 #
-all:
+all::
 	@true
