@@ -1,6 +1,6 @@
 #
 .DEFAULT:	all
-.PHONY:		all build
+.PHONY:		all build clean
 
 #
 all::
@@ -8,3 +8,6 @@ all::
 
 build:
 	dpkg-buildpackage -uc -us
+
+clean:
+	rm ../vaulte_*
