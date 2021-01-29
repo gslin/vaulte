@@ -7,7 +7,7 @@ all::
 	@true
 
 build:
-	dpkg-buildpackage -uc -us
+	debuild -S
 
 clean:
 	rm -fr debian/.debhelper/ debian/debhelper-build-stamp debian/files debian/vaulte.substvars debian/vaulte/
